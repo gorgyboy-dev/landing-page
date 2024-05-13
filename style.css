@@ -1,0 +1,52 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hero,
+.header,
+.footer {
+    background-color: #1f2937;
+}
+
+.header-logo,
+.hero-title {
+    color: #f9faf8;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+a,
+.hero-text {
+    color: #e5e7eb;
+    font-size: 18px;
+}
