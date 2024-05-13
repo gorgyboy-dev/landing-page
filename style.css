@@ -24,29 +24,76 @@ a {
     text-decoration: none;
 }
 
+button {
+    background-color: #3882f6;
+    border: 0;
+    border-radius: 7px;
+    font-weight: bold;
+    padding: 8px 32px;
+}
+
+button,
+.action-box {
+    background-color: #3882f6;
+    border: 0;
+    border-radius: 7px;
+}
+
 .hero,
 .header,
 .footer {
     background-color: #1f2937;
 }
 
+button,
 .header-logo,
-.hero-title {
+.hero-title,
+.footer {
     color: #f9faf8;
 }
 
-.header-logo {
+.header-logo,
+.quote-author {
     font-size: 24px;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 .hero-title {
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: 900;
 }
 
 a,
 .hero-text {
     color: #e5e7eb;
+    font-size: 18px;
+}
+
+.info-title,
+.quote-text,
+.quote-author {
+    color: #1f2937;
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.quote-container {
+    background-color: #e5e7eb;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.action-container button {
+    border: 2px solid #f9faf8;
+}
+
+.footer {
     font-size: 18px;
 }
