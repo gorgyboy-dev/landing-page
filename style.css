@@ -50,12 +50,14 @@ button,
 button,
 .header-logo,
 .hero-title,
+.action-text,
 .footer {
     color: #f9faf8;
 }
 
 .header-logo,
-.quote-author {
+.quote-author,
+.action-text {
     font-size: 24px;
     font-weight: 700;
 }
@@ -67,7 +69,8 @@ button,
 
 a,
 .hero-text,
-.hero-image {
+.hero-image,
+.action-subtext {
     color: #e5e7eb;
     font-size: 18px;
 }
@@ -180,6 +183,30 @@ a,
 .quote-author {
     align-self: flex-end;
     padding: 0 96px 48px;
+}
+
+.action-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 96px 15%;
+}
+
+.action-box {
+    flex: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 48px 96px;
+}
+
+.action-text-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.action-subtext {
+    font-weight: 100;
 }
 
 .footer {
