@@ -106,9 +106,11 @@ a,
 
 .hero-container {
     display: flex;
-    padding: 48px 15%;
+    align-items: center;
+    justify-content: center;
     flex-basis: 0;
     gap: 16px;
+    padding: 48px 15%;
 }
 
 .hero-content {
@@ -121,10 +123,54 @@ a,
 .hero-image {
     background-color: #868686;
     width: 100%;
+    align-self: stretch;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    padding: 48px 15%;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    padding: 24px 56px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+}
+
+.card-image {
+    border: 3px solid #3882f6;
+    border-radius: 7px;
+    height: 175px;
+    width: 100%;
+}
+
+.card-text {
+    text-align: justify;
+    text-align-last: center;
+}
+
+
+
+
+
+
+
+
 
 .footer {
     font-size: 18px;
