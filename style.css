@@ -16,8 +16,8 @@ body {
 }
 
 
-/* --- COMMON STYLES --- */
 
+/* --- COMMON STYLES --- */
 
 .hero-section,
 .info-section,
@@ -29,7 +29,7 @@ button {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 96px 15%;
+    padding: 72px 15%;
 }
 
 .hero-section,
@@ -94,12 +94,12 @@ button,
 }
 
 button {
-    padding: 8px 40px;
+    padding: 8px 36px;
 }
 
 
-/* --- HERO SECTION --- */
 
+/* --- HERO SECTION --- */
 
 .hero-section {
     gap: 72px;
@@ -160,8 +160,8 @@ a {
 }
 
 
-/* --- INFO SECTION --- */
 
+/* --- INFO SECTION --- */
 
 .info-section {
     gap: 72px;
@@ -197,8 +197,8 @@ a {
 }
 
 
-/* --- QUOTE SECTION --- */
 
+/* --- QUOTE SECTION --- */
 
 .quote-section {
     background-color: #e5e7eb;
@@ -218,8 +218,8 @@ a {
 }
 
 
-/* --- ACTION SECTION --- */
 
+/* --- ACTION SECTION --- */
 
 .action-container {
     display: flex;
@@ -243,8 +243,8 @@ a {
 }
 
 
-/* --- FOOTER SECTION --- */
 
+/* --- FOOTER SECTION --- */
 
 .footer-section {
     padding: 24px 0;
